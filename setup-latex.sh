@@ -3,6 +3,7 @@
 sudo apt-get update
 sudo apt-get -y install git
 git clone https://github.com/scottkosty/install-tl-ubuntu
+chmod 777 install-tl-ubuntu
 sudo ./install-tl-ubuntu --more-tex
 
 git config --global user.name "forstermatth"
