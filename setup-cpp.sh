@@ -9,5 +9,5 @@ sudo apt-get -y install libcppunit-dev
 sudo apt-get -y install valgrind
 
 
-git config --global user.name "Matt Forster"
+git config --global user.name "forstermatth"
 git config --global user.email forster.matth@gmail.com
