@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   
-  config.vm.box = "precise32"
+  config.vm.box = "precise64"
   config.vm.provision :shell, :path => "setup-lamp.sh"
 
   config.vm.network :private_network, ip: "192.168.2.2"
