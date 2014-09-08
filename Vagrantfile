@@ -4,10 +4,7 @@
 Vagrant.configure("2") do |config|
   
   config.vm.box = "precise64"
-  config.vm.provision :shell, :path => "setup-lamp.sh"
-
-  config.vm.network :private_network, ip: "192.168.2.2"
-  config.vm.network :forwarded_port, host: 8080, guest: 80
+  config.vm.provision :shell, :path => "setup-spim.sh"
 
   # config.vm.synced_folder "support", "/support"
 end
